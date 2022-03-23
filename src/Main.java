@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Enter a name's student:");
         String input_name = myObj.nextLine();
         boolean isExist = false;
-        for (int i = 0; i < students.length; i++) {
+        for (int i = 0; i < students.length-1; i++) {
             if (students[i].equals(input_name)) {
                 System.out.println("Vị trí các sinh viên trong danh sách: " + input_name + " là " + i);
                 isExist = true;

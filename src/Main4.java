@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//  tìm giá trị nhỏ nhất trong mảng
 
 public class Main4 {
     public static void main (String[]args){
